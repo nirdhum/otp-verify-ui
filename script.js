@@ -1,6 +1,6 @@
 const codes = document.querySelectorAll('.code')
 
-codes[0].focus()
+codes[0].focus() //to put focus on first input box
 
 codes.forEach((code, index) => {
     code.addEventListener('keydown', (e) => {
